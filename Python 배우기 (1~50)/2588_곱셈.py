@@ -1,5 +1,7 @@
-a= input('')
-b= input('')
+a= int(input(''))
+b= int(input(''))
 
-
+print(a*(b%10))
+print(a*(b%100//10))
+print(a*(b//100))
 print(int(a)*int(b))
