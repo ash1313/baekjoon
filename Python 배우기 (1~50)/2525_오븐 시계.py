@@ -1,8 +1,8 @@
 H, M = map(int, input().split())
-timer = int(input()) 
+time = int(input()) 
 
-H += timer // 60
-M += timer % 60
+H += time // 60
+M += time % 60
 
 if M >= 60:
     H += 1
